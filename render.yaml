@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: code2video-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
